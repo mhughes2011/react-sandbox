@@ -5,7 +5,8 @@ import React from 'react'
 // import UseRef3 from './components/UseRef3'
 // import UseMemo from './components/UseMemo'
 // import UseCallback from './components/UseCallback'
-import CustomHook1 from './components/CustomHook1'
+// import CustomHook1 from './components/CustomHook1'
+import CustomHook2 from './components/CustomHook2'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <UseRef3 />
       <UseMemo />
       <UseCallback /> */}
-      <CustomHook1 />
+      {/* <CustomHook1 /> */}
+      <CustomHook2 />
     </div>
   )
 }
